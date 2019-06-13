@@ -11,7 +11,7 @@ file_csv = '2010BA_DEIDENT_INTHB0837I_286230_10160249.csv'
 
 
 
-write_out_file = open('/home/hanayuki/Desktop/trainning-ABX/DB_0406/result/change2010BA_DEIDENT_INTHB0837I_286230_10160249.csv','w')
+write_out_file = open('./result/change2010BA_DEIDENT_INTHB0837I_286230_10160249.csv','w')00
 with open(file_csv,'r') as csv_file:
 
     spamreader = csv.DictReader(csv_file)
